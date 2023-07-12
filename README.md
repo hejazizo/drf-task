@@ -38,6 +38,23 @@ Requirements:
    - Users should be able to edit an existing education item.
    - Users should be able to delete an existing education item.
 
+Optional Bonus Tasks:
+
+1. Test Cases:
+   - Write test cases to verify the functionality of the API endpoints.
+   - Include both unit tests and integration tests.
+   - Ensure proper coverage of different scenarios and edge cases.
+
+2. Performance Measurement with Locust:
+   - Use Locust to measure the performance of the API endpoints under different load conditions.
+   - Define appropriate test scenarios and performance metrics.
+   - Analyze the results and identify any bottlenecks or areas for optimization.
+
+3. Other Improvements:
+   - Implement additional features or enhancements to improve the overall functionality, security, or performance of the API.
+   - Suggestions for improvements may include pagination, filtering, sorting, input validation, error handling, or API documentation enhancements.
+
+
 Guidelines:
 
 - Use Django Rest Framework to build the API.
