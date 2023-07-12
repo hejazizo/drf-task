@@ -7,12 +7,12 @@ Requirements:
 
 1. User Profile:
    - The User profile should have the following fields:
-     - username (string): The username of the user.
-     - email (string): The email address of the user.
-     - location (string): The location of the user.
-     - gender (string): The gender of the user.
-     - avatar (file): The avatar image of the user.
-     - is_verified (boolean): Indicates whether the user's profile is verified.
+     - `username` (_string_): The username of the user.
+     - `email` (_string_): The email address of the user.
+     - `location` (_string_): The location of the user.
+     - `gender` (_string_): The gender of the user.
+     - `avatar` (_file_): The avatar image of the user.
+     - `is_verified` (_boolean_): Indicates whether the user's profile is verified.
 
 2. Authentication:
    - Users should be able to authenticate using their credentials (username/email and password) to access the API.
@@ -25,12 +25,12 @@ Requirements:
 4. Education Items:
    - Users should be able to add education items to their profile.
    - Each education item should have the following fields:
-     - institution (string): The name of the institution.
-     - degree (string): The degree obtained.
-     - field_of_study (string): The field of study.
-     - start_date (date): The start date of the education.
-     - end_date (date): The end date of the education.
-     - description (string): A description of the education item.
+     - `institution` (_string_): The name of the institution.
+     - `degree` (_string_): The degree obtained.
+     - `field_of_study` (_string_): The field of study.
+     - `start_date` (_date_): The start date of the education.
+     - `end_date` (_date_): The end date of the education.
+     - `description` (_string_): A description of the education item.
 
 5. CRUD Operations on Education Items:
    - Users should be able to perform CRUD operations (Create, Read, Update, Delete) on their education items.
